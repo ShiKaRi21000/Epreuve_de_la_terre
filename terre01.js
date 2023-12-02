@@ -1,7 +1,7 @@
 
 
 let pathName = __filename.split("\\")
-console.log(pathName[6])
+console.log(pathName[pathName.length -1])
 
 
 
