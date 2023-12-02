@@ -1,6 +1,6 @@
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-for (const alphabets of alphabet){
-    console.log(alphabets)
+for (const lettres of alphabet){
+    console.log(lettres)
 }
