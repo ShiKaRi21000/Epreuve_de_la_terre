@@ -1,7 +1,11 @@
 
 const { argv } = require('node:process');
 
-// print process.argv
-argv.forEach((val) => {
-  console.log(`${val}`);
-});
+argv.forEach ((val, index) => {
+  if (index <= 1){
+
+  }
+  else {
+    console.log(`${val}`);
+  }
+})
