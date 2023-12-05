@@ -6,6 +6,6 @@ argv.forEach ((val, index) => {
     }
     else {
       let correspondance = alphabet.indexOf(val)
-        console.log(alphabet.slice(correspondance))
+      console.log(alphabet.slice(correspondance))
     }
   })
